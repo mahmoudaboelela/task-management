@@ -1,6 +1,7 @@
 
 ## Requirements
 - PHP 8.3 or greater.
+- Laravel >= 11.0
 
 # Task Management
 
