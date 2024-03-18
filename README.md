@@ -1,4 +1,7 @@
 
+## Requirements
+- PHP 8.3 or greater.
+
 # Task Management
 
 Task Management App is a web application built with Laravel that allows users to manage their tasks efficiently.
@@ -22,7 +25,7 @@ Clone the repository:
 ```bash
   git clone https://github.com/mahmoudaboelela/task-management.git
 ```
-    
+
 Navigate to the project directory:
 
 ```bash
@@ -61,6 +64,12 @@ Seed the database with sample data:
 
 ```bash
  php artisan db:seed
+```
+
+Create a personal access token for Passport:
+
+```bash
+ php artisan passport:client --personal
 ```
 
 Serve the application:
